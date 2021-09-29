@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<!-- 이 부분을 그냥 파일을 열어보면 '안녕하세요. 손님' 이 뜨게 된다. 프로토타입을 그냥 .html 문서만 열어서 볼 수 있는 것 -->
+<p th:text="'안녕. ' + ${data}" >안녕. 손님</p>
+</body>
+</html>
